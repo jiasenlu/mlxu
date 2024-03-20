@@ -30,6 +30,8 @@ class WandBLogger(object):
         config.experiment_id = config_placeholder(str)
         config.anonymous = config_placeholder(str)
         config.notes = config_placeholder(str)
+        config.group = config_placeholder(str)
+        config.name = config_placeholder(str)
         config.entity = config_placeholder(str)
         config.prefix_to_id = False
         return update_config_dict(config, updates)
